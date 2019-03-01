@@ -4,6 +4,7 @@ import jetbrains.buildServer.configs.kotlin.v2017_2.vcs.GitVcsRoot
 
 object ExTest_ExtensionStarterCi_SatishGithubExtStarter : GitVcsRoot({
     uuid = "5d76acd1-a7df-466a-af5e-eb76462890f2"
+    id = "ExTest_ExtensionStarterCi_SatishGithubExtStarter"
     name = "SatishGithub-ExtStarter"
     url = "git@github.com:satish-m/extension-starter-ci.git"
     authMethod = uploadedKey {
